@@ -61,7 +61,7 @@
 Saleor is a rapidly-growing open source e-commerce platform that has served high-volume companies from branches like publishing and apparel since 2012. Based on Python and Django, the latest major update introduces a modular front end powered by a GraphQL API and written with React and TypeScript.
 
 ## Features
-
+###Awesome features
 - **PWA**: End users can shop offline for better sales and shopping experiences
 - **GraphQL API**: Access all data from any web or mobile client using the latest technology
 - **Headless commerce**: Build mobile apps, customize storefronts and externalize processes
