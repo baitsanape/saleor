@@ -7,11 +7,12 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker:
-          docker_layer_caching: true
+          docker_layer_caching: false
       - run:
           name: Set version
           command: |
-            export SALEOR_VERSION=$(git rev-parse --short HEAD)
+              :q
+              export SALEOR_VERSION=$(git rev-parse --short HEAD)
             if [ -n "$CIRCLE_TAG" ]; then
               export SALEOR_VERSION=$(git describe --tags)
             fi
